@@ -1,4 +1,4 @@
-//In addition to for, while and do-while there's also a repeat
+//In addition to for, while and do-while there's also a repeat conditional statement
 
 fun main() {
     repeat(5) {

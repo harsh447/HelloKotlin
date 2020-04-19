@@ -11,10 +11,10 @@ fun main() {
     println(updateDirty(dirtyLevel, waterFilter))
     println(updateDirty(dirtyLevel, waterFilter2))
 
-    //The usage of the :: operator indicates the intention to pass the function as a reference and not call the function
+    //The usage of the :: operator indicates the intention to pass function as a reference and not call the function
     println(updateDirty(dirtyLevel, ::increaseDirty))
 
-    //Kotlin prefers that if a function does accept a higher-order function then its best if that is the last parameter
+    //Kotlin prefers that if a function does accept a higher-order function then it be the last parameter
     //because Kotlin has a special syntax in that case called the 'Last Parameter Call Syntax'
     println(updateDirty(dirtyLevel) {
         it * 4

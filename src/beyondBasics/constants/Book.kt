@@ -10,4 +10,4 @@ object Constants {
 
 //find out diff between companion object and object
 //Companion objects constants are present in the static constructors of the class
-//Object init happens lazily i.e., on demand
+//Object init happens lazily or on-demand
